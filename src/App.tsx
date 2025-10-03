@@ -132,7 +132,7 @@ function App() {
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-12">
         {/* Controls Bar - Sticky when analysis is active */}
         {showControls && (
-          <div className="sticky top-0 z-40 bg-white/90 backdrop-blur-sm border-b border-gray-200 mb-6 sm:mb-8 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
+          <div className="sticky top-0 z-40 bg-white/90 backdrop-blur-sm border-b border-gray-200 mt-16 mb-6 sm:mb-8 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
             <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-3 sm:gap-4">
               {/* Font Size Controls */}
               <div className="flex items-center gap-2">
@@ -156,7 +156,7 @@ function App() {
               </div>
 
               {/* Feature Controls */}
-              <div className="flex items-center gap-2 sm:gap-3">
+              <div className="flex items-center gap-2  sm:gap-3">
                 {/* Auto Analysis Toggle */}
                 <button
                   onClick={() => setAutoAnalysis(!autoAnalysis)}
@@ -212,9 +212,9 @@ function App() {
         )}
 
         {/* Code Analysis Section */}
-        <section className="max-w-4xl mx-auto space-y-6 sm:space-y-8">
+        <section className="max-w-4xl mt-32 mx-auto space-y-6 sm:space-y-8">
           <div className="text-center space-y-3 sm:space-y-4">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
               Code Analysis
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
